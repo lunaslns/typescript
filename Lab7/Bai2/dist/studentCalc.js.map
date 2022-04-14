@@ -1,1 +1,1 @@
-{"version":3,"file":"studentCalc.js","sourceRoot":"","sources":["../src/studentCalc.ts"],"names":[],"mappings":";AAAA,IAAU,WAAW,CAIpB;AAJD,WAAU,WAAW;IACjB,SAAgB,YAAY,CAAC,SAAiB,EAAE,IAAY;QACxD,OAAO,SAAS,GAAG,IAAI,CAAC;IAC5B,CAAC;IAFe,wBAAY,eAE3B,CAAA;AACL,CAAC,EAJS,WAAW,KAAX,WAAW,QAIpB"}
+{"version":3,"file":"studentCalc.js","sourceRoot":"","sources":["../src/studentCalc.ts"],"names":[],"mappings":";AAAA,yBAAyB;AACzB,qEAAqE;AACrE,mCAAmC;AACnC,QAAQ;AACR,IAAI"}
