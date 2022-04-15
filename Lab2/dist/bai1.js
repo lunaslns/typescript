@@ -11,4 +11,3 @@ if (permit) {
 else {
     console.log('not show result');
 }
-//# sourceMappingURL=bai1.js.map

@@ -26,4 +26,3 @@ persons.roletuple[0] = 10;
 console.log(persons.roletuple);
 persons.roletuple = [0, 'admin', 'user'];
 console.log(persons.roletuple);
-//# sourceMappingURL=bai4.js.map

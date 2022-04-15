@@ -15,4 +15,3 @@ const combineStringNumber = combine('30', '26', 'as-number');
 console.log(combineStringNumber);
 const combineText = combine('typescript vs ', 'javascript', 'as-text');
 console.log(combineText);
-//# sourceMappingURL=bai5.js.map

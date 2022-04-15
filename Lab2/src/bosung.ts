@@ -12,7 +12,7 @@ function render(){
 
         let img = document.createElement('img');
         img.className = 'list-item-img';
-        img.src = 'casio-g-shock-GA-110GB-1ADR.jpg';
+        img.src = './images/casio-g-shock-GA-110GB-1ADR.jpg';
 
         let p = document.createElement('p');
 

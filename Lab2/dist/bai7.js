@@ -11,4 +11,3 @@ if (typeof userInput === 'string') {
 }
 console.log(userInput);
 console.log(userName);
-//# sourceMappingURL=bai7.js.map

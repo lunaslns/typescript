@@ -11,7 +11,7 @@ function render() {
         h3.innerHTML = 'Đồng hồ nam';
         let img = document.createElement('img');
         img.className = 'list-item-img';
-        img.src = 'casio-g-shock-GA-110GB-1ADR.jpg';
+        img.src = './images/casio-g-shock-GA-110GB-1ADR.jpg';
         let p = document.createElement('p');
         let del = document.createElement('del');
         del.className = 'list-item-oldprice';
@@ -33,4 +33,3 @@ function render() {
     body === null || body === void 0 ? void 0 : body.appendChild(list);
 }
 render();
-//# sourceMappingURL=bosung.js.map

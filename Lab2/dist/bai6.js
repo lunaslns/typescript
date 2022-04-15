@@ -7,4 +7,3 @@ var b;
 console.log(b);
 console.log(typeof (b));
 // console.log(undeclaredVar);
-//# sourceMappingURL=bai6.js.map

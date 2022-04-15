@@ -44,4 +44,3 @@ function getAPI(url, pokemons) {
     }
 }
 getAPI(url, pokemons);
-//# sourceMappingURL=app.js.map

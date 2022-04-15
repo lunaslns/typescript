@@ -8,4 +8,3 @@ function add(x = 5) {
 }
 let results = add();
 console.log(results);
-//# sourceMappingURL=bai2.js.map

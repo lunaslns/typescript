@@ -7,4 +7,3 @@ person = {
 };
 console.log(person.name);
 console.log(person.age);
-//# sourceMappingURL=bai3.js.map
