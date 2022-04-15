@@ -1,7 +1,7 @@
 "use strict";
 //never & void
 let something = undefined;
-// let nothing:never = null;
+let nothing;
 function throwError(errorMsg) {
     throw new Error(errorMsg);
 }

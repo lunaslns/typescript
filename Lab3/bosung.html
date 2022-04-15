@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+</head>
+<body>
+    <div id="main">
+        <div class="container">
+            <button class="btn text-dark active" id="cap_nhat"><i class="fas fa-wrench"></i> Cập nhật</button>
+            <button class="btn text-dark" id="danh_sach"><i class="fas fa-list"></i> Danh sách</button>
+            <form id="form" class="form">
+                <h3>Nhập lương tháng 3</h3>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <input type="text" id="ma" class="form-control" placeholder="Mã nhân viên...">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="text" id="hoTen" class="form-control" placeholder="Họ và tên...">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <input type="text" id="clb" class="form-control" placeholder="Câu lạc bộ...">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="number" id="luong" class="form-control" placeholder="Lương...">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <input type="number" id="thuong" class="form-control" placeholder="Thưởng...">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="number" id="phuCap" class="form-control" placeholder="Phụ cấp...">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="">Ghi chú</label>
+                    <textarea class="form-control" id="ghiChu" rows="3"></textarea>
+                </div>
+                <button id="luu" class="btn btn-border btn-primary">Lưu</button>
+                <button id="reset" class="btn btn-border btn-secondary">Hủy</button>
+            </form>
+
+            <div id="wrap_table">
+                <table id="table" style="border-radius: 10px;" class="table table-custom">
+                    <h4>Bảng lương tháng 12</h4>
+                    <tr>
+                        <th rowspan="2">mã nv</th>
+                        <th rowspan="2">họ và tên</th>
+                        <th colspan="3">thu nhập</th>
+
+                    </tr>
+                    <tr>
+                        <th>lương</th>
+                        <th>thưởng</th>
+                        <th>phụ cấp</th>
+                    </tr>
+                    <tbody id="tbody">
+                        <tr>
+                            <td>January</td>
+                            <td>$100</td>
+                            <td>$50</td>
+                            <td>$50</td>
+                            <td>$50</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="./dist/bosung.js"></script>
+</body>
+</html>
