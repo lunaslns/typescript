@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.list{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.list-item{
+    width: 20%;
+    text-align: center;
+    margin: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+.list-item-name{
+    margin-top: 20px;
+    color: black;
+}
+
+.list-item-img{
+    width: 50%;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.list-item-newprice {
+    color: red;
+    margin-left: 5px;
+}
+
+.list-item-button{
+    color: green;
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background: white;
+}
