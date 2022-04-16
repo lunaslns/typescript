@@ -5,8 +5,8 @@ const model_1 = require("./model");
 let users = (req, res) => {
     let users = [
         new model_1.User('james coonce', 'jcoonce', 'james@one.com'),
-        new model_1.User('james coonce', 'jcoonce', 'james@one.com'),
-        new model_1.User('james coonce', 'jcoonce', 'james@one.com')
+        new model_1.User('lunas doan', 'lunas', 'lunas@one.com'),
+        new model_1.User('tuyet ho', 'tuyet', 'tuyet@one.com')
     ];
     res.json(users);
 };
