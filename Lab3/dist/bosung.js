@@ -34,7 +34,7 @@ let render = () => {
         let tbody = document.querySelector('#tbody');
         let str = '';
         if (arrayStaff.length == 0) {
-            str = `<td style="text-align:center" colspan="5"> <i >  Hiện chưa có cầu thủ nào trong danh sách </i> </td>`;
+            str = `<td style="text-align:center" colspan="5"><i>Hiện chưa có nhân viên...</i></td>`;
             tbody.innerHTML = str;
         }
         arrayStaff.forEach(element => {
@@ -86,7 +86,7 @@ let render = () => {
         let tbody = document.querySelector('#tbody');
         let str = '';
         if (arrayStaff.length == 0) {
-            str = `<td style="text-align:center" colspan="5"> <i class="text-danger" >  Hiện chưa có nhân viên... </i> </td>`;
+            str = `<td style="text-align:center" colspan="5"><i class="text-danger">Hiện chưa có nhân viên...</i></td>`;
             tbody.innerHTML = str;
         }
         arrayStaff.forEach(element => {
