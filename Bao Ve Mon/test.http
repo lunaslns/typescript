@@ -1,0 +1,13 @@
+@baseUrl = http://localhost:3000/
+
+###
+GET {{baseUrl}}sanphams
+
+###
+POST {{baseUrl}}sanphams
+Content-Type: application/json
+
+{
+    "name": "Ferrari",
+    "img": "https://baoquocte.vn/stores/news_dataimages/dangtuan/102020/15/14/bang-gia-xe-ferrari-2020-tai-viet-nam-moi-nhat-thang-102020_6.jpg?rt=20201015144127"
+}

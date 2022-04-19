@@ -1,0 +1,45 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Sách Châm Ngôn",
+      "soluongSP": 1400,
+      "avatar":"https://taisachmoi.com/wp-content/uploads/2018/12/cham-ngon-ngay-moi.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Linh dị",
+        "soluongSP": 1300,
+        "avatar":"https://newshop.vn/public/uploads/products/8139/nhung-mien-linh-di-tap-1-thai-lan.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Kinh doanh",
+        "soluongSP": 1200,
+        "avatar":"https://cdn0.fahasa.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/8/9/8935251406115.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Ngôn tình",
+        "soluongSP": 1000,
+        "avatar":"https://topxephang.com/wp-content/uploads/2018/01/CUNGQUANGHANG.6314at.jpg"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
